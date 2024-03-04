@@ -115,6 +115,13 @@
     color: #01cbe1;
 }
 
+@media(max-width:576px){
+    .research h1{
+        font-size: 1.5rem;
+    }
+    
+}
+
 .research p{
     color: #003755;
 }
