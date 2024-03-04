@@ -1,0 +1,298 @@
+.navbar{
+    padding: 0 !important;
+}
+
+.nav-contain{
+    padding-left: 0 !important;
+}
+
+.navbar-top{
+    position: fixed !important;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+}
+
+.navbar-brand{
+    height: 100%;
+    background-color: #01cbe1;
+    padding: 10px;
+}
+.brand-nav h2{
+    color: white;
+    font-weight: 400;
+}
+
+.brand-nav span{
+    font-weight: 600;
+}
+
+.search{
+    height: 40px !important;
+}
+
+.search>img{
+    transform: translateY(-6px);
+    height: 120% !important;
+}
+
+.nav-item a{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 !important;
+    color: #003755 !important;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav-item{
+    margin-right: 70px !important;
+}
+.underline{
+    height: 2px;
+    background-color: black;
+    width: 0;
+    transition-duration: 0.5s;
+}
+
+.nav-item:hover .underline{
+    width: 100%;
+    transition-duration: 0.5s;
+}
+
+/* ------------------header-------------------- */
+
+.header{
+    position: relative;
+    height: 70vh;
+}
+
+.header-text *{
+    color: white;
+}
+
+.dash{
+    height: 1px;
+    background-color: white;
+}
+
+.header-image{
+    height: 70vh;
+}
+
+.header-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header-text{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    z-index: 2;
+}
+
+
+.gradient{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(to top,black,rgba(0,0,0,0));
+    bottom: 0;
+}
+
+
+/* -----------------------research------------------- */
+
+
+.research .dash{
+    background-color: #01cbe1;
+}
+
+.research h1{
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: #01cbe1;
+}
+
+.research p{
+    color: #003755;
+}
+
+
+.area{
+    background-color: #01cbe1;
+}
+
+.area .dash{
+    background-color: white;
+    margin-top: 100px;
+}
+
+.area>h1{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.r-areas{
+    justify-content: space-evenly;
+    margin-bottom: -5px;
+    padding-bottom: o;
+}
+
+
+
+.r-area p{
+    color: white;
+    
+    
+}
+
+.r-area{
+    flex: 1;
+    background-color:#01cbe1 ;
+    text-align: center;
+    
+    
+}
+
+.r-area label{
+    cursor: pointer;
+}
+
+.info{
+    display: none;
+}
+
+#area1:checked~.area .r-areas #area-1{
+    background-color: white !important;
+   
+}
+
+#area1:checked~.area .r-areas  #area-1 label p{
+    color: #01cbe1 !important;
+}
+#area2:checked~.area .r-areas #area-2{
+    background-color: white !important;
+    
+}
+
+#area2:checked~.area .r-areas #area-2 label p{
+    color: #01cbe1 !important;
+}
+
+#area3:checked~.area .r-areas #area-3{
+    background-color: white !important;
+    
+}
+
+#area3:checked~.area .r-areas #area-3 label p{
+    color: #01cbe1 !important;
+}
+
+#area4:checked~.area .r-areas #area-4{
+    background-color: white !important;
+    
+}
+
+#area4:checked~.area .r-areas #area-4 label p{
+    color: #01cbe1 !important;
+}
+
+
+#research input{
+    display: none;
+}
+
+.research-info *{
+    color: #003755;
+    padding: 10px;
+}
+.info-img p{
+    text-align: center;
+}
+#area1:not(:checked)~.research-info .info-1{
+    display: none !important;
+}
+#area2:not(:checked)~.research-info .info-2{
+    display: none !important;
+}
+#area3:not(:checked)~.research-info .info-3{
+    display: none !important;
+}
+#area4:not(:checked)~.research-info .info-4{
+    display: none !important;
+}
+
+
+
+
+
+/* -----------------------footer---------------------*/
+
+#footer{
+    background-color: #003755;
+}
+
+.follow{
+    justify-content: space-evenly;
+}
+
+.follow>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-brands{
+    gap: 8px;
+}
+
+.icon{
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.icon i{
+    font-size: 20px;
+    background-color: white;
+    
+}
+
+
+.news-letter{
+    align-items: center;
+}
+.news-letter input{
+    background-color: #003755;
+    border: solid 3px white;
+    border-radius: 5% 0;
+    height: 30px;
+}
+
+.news-letter i{
+    background-color: white;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about *{
+    color: white;
+}
+
+.about-section{
+    justify-content: space-evenly;
+}
+.about-section div{
+    margin-top: 5%;
+}
